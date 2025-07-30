@@ -1,8 +1,31 @@
+<div align="center">
+  <a href="./README_zh.md">中文</a> / English
+</div>
+
 # FeedBlockPlus
 FeedBlockPlus is an extension to manage time spent on websites and to block feeds and unwanted content.
 
-## Supported Websites and Blocked Content
+Table of Contents
+=================
 
+- [Supported Websites and Blocked Content](#supported-websites-and-blocked-content)
+  - [1. Bilibili (bilibili.com)](#1-bilibili-bilibilicom)
+  - [2. Baidu (baidu.com)](#2-baidu-baiducom)
+  - [3. Zhihu (zhihu.com)](#3-zhihu-zhihucom)
+  - [4. CSDN (csdn.net)](#4-csdn-csdnnet)
+  - [5. Juejin (juejin.cn)](#5-juejin-juejincn)
+  - [6. Xiaohongshu (xiaohongshu.com)](#6-xiaohongshu-xiaohongshucom)
+  - [7. Jianshu (jianshu.com)](#7-jianshu-jianshucom)
+  - [8. YouTube (youtube.com)](#8-youtube-youtubecom)
+  - [9. Douyin (douyin.com)](#9-douyin-douyincom)
+- [How It Works](#how-it-works)
+- [Features](#features)
+- [Usage Instructions](#usage-instructions)
+- [Notes](#notes)
+- [Technical Implementation](#technical-implementation)
+- [Developer Documentation](#developer-documentation)
+
+## Supported Websites and Blocked Content
 ### 1. Bilibili (bilibili.com)
 
 **Blocked Content:**
