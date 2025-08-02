@@ -3,9 +3,10 @@
 </div>
 
 # FeedBlockPlus
-FeedBlockPlus is an extension to manage time spent on websites and to block feeds and distracted contents.
-Table of Contents
-=================
+
+FeedBlockPlus is an extension to manage time spent on websites and to block feeds and unwanted content.
+
+# Table of Contents
 
 - [Supported Websites and Blocked Content](#supported-websites-and-blocked-content)
   - [1. Bilibili (bilibili.com)](#1-bilibili-bilibilicom)
@@ -17,42 +18,51 @@ Table of Contents
   - [7. Jianshu (jianshu.com)](#7-jianshu-jianshucom)
   - [8. YouTube (youtube.com)](#8-youtube-youtubecom)
   - [9. Douyin (douyin.com)](#9-douyin-douyincom)
+  - [10. Weibo (weibo.com)](#10-weibo-weibocom)
+  - [11. Tencent Video (v.qq.com)](#11-tencent-video-vqqcom)
+  - [12. iQiyi (iqiyi.com)](#12-iqiyi-iqiyicom)
+  - [13. Youku (youku.com)](#13-youku-youkucom)
 - [How It Works](#how-it-works)
 - [Features](#features)
 - [Usage Instructions](#usage-instructions)
 - [Notes](#notes)
 - [Technical Implementation](#technical-implementation)
-- [Developer Documentation](#developer-documentation)
 
 ## Supported Websites and Blocked Content
+
 ### 1. Bilibili (bilibili.com)
 
 **Blocked Content:**
-- Main feed layout 
+
+- Main feed layout
 - Header channel navigation
 - Hot search trending areas and double trending displays
-- Ad block tips 
+- Ad block tips
 
 **Additional Features:**
+
 - Remove search input placeholder text
 
 ### 2. Baidu (baidu.com)
 
 **Blocked Content:**
-- Hot search wrapper 
+
+- Hot search wrapper
 - New search guide bubble
-- Offset content area 
+- Offset content area
 
 ### 3. Zhihu (zhihu.com)
 
 **Blocked Content:**
-- Main story feed 
+
+- Main story feed
 - Loading progress bar
 - Hot search cards
-- Specific style elements 
+- Specific style elements
 - Post right-side content area
 
 **Additional Features:**
+
 - Remove search input placeholder text
 - Delete "Search Discovery" related content
 - Adjust search main area and post content area width to 1000px
@@ -60,17 +70,19 @@ Table of Contents
 ### 4. CSDN (csdn.net)
 
 **Blocked Content:**
-- Carousel slide paid content 
-- Sidebar hot articles 
+
+- Carousel slide paid content
+- Sidebar hot articles
 - Sidebar categories
-- Sidebar archives 
-- Sidebar new comments 
+- Sidebar archives
+- Sidebar new comments
 - Toolbar advertisements
-- Right-side fixed hidden elements 
+- Right-side fixed hidden elements
 
 ### 5. Juejin (juejin.cn)
 
 **Blocked Content:**
+
 - Sidebar blocks
 - Top banner container
 - Image advertisements in article areas
@@ -78,39 +90,91 @@ Table of Contents
 ### 6. Xiaohongshu (xiaohongshu.com)
 
 **Blocked Content:**
-- Explore feeds 
-- Channel container 
+
+- Explore feeds
+- Channel container
 
 ### 7. Jianshu (jianshu.com)
 
 **Blocked Content:**
-- Sidebar 
+
+- Sidebar
 
 ### 8. YouTube (youtube.com)
 
 **Blocked Content:**
+
 - Homepage feed (homepage only, doesn't affect subscription page)
 - Sidebar navigation items:
   - Home links
   - Shorts links
 
 **Additional Features:**
+
 - Automatically remove notification numbers from page title
 - Hide sidebar "Explore" section (third navigation area)
 
 ### 9. Douyin (douyin.com)
 
 **Blocked Content:**
-- Right container content 
+
+- Right container content
 - Navigation tabs:
-  - Discover tab 
-  - Recommend tab 
-  - Live tab 
-  - VS tab 
-  - Series tab 
+  - Discover tab
+  - Recommend tab
+  - Live tab
+  - VS tab
+  - Series tab
 
 **Additional Features:**
+
 - Automatically redirect to featured page when accessing recommendation page
+
+### 10. Weibo (weibo.com)
+
+**Blocked Content:**
+
+- Homepage feed
+- Loading progress bars
+- Right sidebar content
+- Video recommendation feeds
+- Video ranking lists
+- Search result sidebars
+- Featured channels
+
+### 11. Tencent Video (v.qq.com)
+
+**Blocked Content:**
+
+- Main channel container
+- Channel pages
+- Web channels
+- Channel page scroll areas
+- Flex containers
+- Hot search areas
+- Popular games section
+- Homepage content wrapper
+
+### 12. iQiyi (iqiyi.com)
+
+**Blocked Content:**
+
+- Navigation sidebar
+- Page view containers (when not in search mode)
+
+**Additional Features:**
+
+- Intelligently detects search mode and adjusts blocking accordingly
+
+### 13. Youku (youku.com)
+
+**Blocked Content:**
+
+- Channel module containers (hides all child divs except the first one)
+
+**Additional Features:**
+
+- Uses dynamic hiding instead of removal for better compatibility
 
 ## How It Works
 
@@ -149,15 +213,6 @@ The extension is implemented based on the following technologies:
 - **CSS Selectors**: Precisely targets elements to be blocked
 - **MutationObserver**: Monitors dynamic page changes
 
-## Developer Documentation
-
-The configuration file is located at `config.js`. Each website's configuration includes:
-
-- `targets`: Array of CSS selectors to block
-- `extraCheck`: Optional additional JavaScript processing function
-
-To add new websites or modify existing rules, please edit the `SITE_CONFIG` object.
-
 ---
 
-*This extension aims to provide a better web browsing experience, reduce distracting content, and help users focus on important information.*
+_This extension aims to provide a better web browsing experience, reduce distracting content, and help users focus on important information._
