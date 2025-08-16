@@ -1,10 +1,10 @@
-# FeedCleaner
+# FeedSwitch
 
-FeedCleaner 是一个浏览器扩展，用于屏蔽各大网站的干扰性内容，帮助用户专注于核心内容。
+FeedSwitch 是一个浏览器扩展，用于屏蔽各大网站的干扰性内容，帮助用户专注于核心内容。
 
 # 目录
 
-- [FeedCleaner](#feedcleaner)
+- [FeedSwitch](#FeedSwitch)
 - [目录](#目录)
   - [支持的网站及屏蔽内容](#支持的网站及屏蔽内容)
     - [1. Bilibili (bilibili.com)](#1-bilibili-bilibilicom)
