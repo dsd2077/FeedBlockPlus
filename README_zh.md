@@ -2,10 +2,16 @@
 
 FeedSwitch 是一个浏览器扩展，用于屏蔽各大网站的干扰性内容，帮助用户专注于更重要的事情。
 
+## 下载
+
+- **谷歌商店**: [FeedSwitch](https://chromewebstore.google.com/detail/plbnbgmddbbloalbmnkejcmdkeleocai?utm_source=item-share-cb)
+- **微软商店**: [FeedCleaner](https://microsoftedge.microsoft.com/addons/detail/feedcleaner/lnghkaabjkpoanjchlkelddoppakakad)
+
 # 目录
 
 - [FeedSwitch](#feedswitch)
 - [目录](#目录)
+  - [下载](#下载)
   - [支持的网站及屏蔽内容](#支持的网站及屏蔽内容)
     - [1. Bilibili (bilibili.com)](#1-bilibili-bilibilicom)
     - [2. 百度 (baidu.com)](#2-百度-baiducom)

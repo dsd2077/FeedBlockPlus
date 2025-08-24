@@ -6,10 +6,16 @@
 
 FeedSwitch is an extension to manage time spent on websites and to block feeds and unwanted content.
 
+## Download
+
+- **Chrome Web Store**: [FeedCleaner](https://chromewebstore.google.com/detail/plbnbgmddbbloalbmnkejcmdkeleocai?utm_source=item-share-cb)
+- **Microsoft Store**: [FeedCleaner](https://microsoftedge.microsoft.com/addons/detail/feedcleaner/lnghkaabjkpoanjchlkelddoppakakad)
+
 # Table of Contents
 
 - [FeedSwitch](#FeedSwitch)
 - [Table of Contents](#table-of-contents)
+  - [Download](#download)
   - [Supported Websites and Blocked Content](#supported-websites-and-blocked-content)
     - [1. Bilibili (bilibili.com)](#1-bilibili-bilibilicom)
     - [2. Baidu (baidu.com)](#2-baidu-baiducom)
