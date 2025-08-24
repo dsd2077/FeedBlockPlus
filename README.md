@@ -8,7 +8,7 @@ FeedSwitch is an extension to manage time spent on websites and to block feeds a
 
 ## Download
 
-- **Chrome Web Store**: [FeedCleaner](https://chromewebstore.google.com/detail/plbnbgmddbbloalbmnkejcmdkeleocai?utm_source=item-share-cb)
+- **Chrome Web Store**: [FeedSwitch](https://chromewebstore.google.com/detail/plbnbgmddbbloalbmnkejcmdkeleocai?utm_source=item-share-cb)
 - **Microsoft Store**: [FeedCleaner](https://microsoftedge.microsoft.com/addons/detail/feedcleaner/lnghkaabjkpoanjchlkelddoppakakad)
 
 # Table of Contents
